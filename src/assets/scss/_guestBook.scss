@@ -1,0 +1,95 @@
+.gbForm {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    background-color: rgb(65, 65, 65);
+    border-radius: 5px;
+    color: #fff;
+    border: #000;
+    font-size: 20px;
+  }
+
+  button:hover {
+    background-color: rgb(114, 114, 114);
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  margin: 0;
+
+  h2 {
+    font-family: Railway, sans-serif;
+    color: #fff;
+  }
+
+  input {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+
+  textarea {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+.comments-box {
+  margin: 0 auto;
+  width: 60%;
+  height: 45vh;
+  overflow-y: scroll;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+.comment-item {
+  width: 90%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 10px auto;
+  text-align: center;
+  word-break: break-word;
+  overflow-y: scroll;
+
+  h3 {
+    // padding-top: 10px;
+    color: #fff;
+    margin: 6px;
+  }
+
+  p {
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+  }
+}
+
+.comment-item-comment {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .comments-box {
+    width: 100%;
+  }
+
+  .gbForm input {
+    width: 100%;
+  }
+
+  .gbForm textarea {
+    width: 100%;
+  }
+}
