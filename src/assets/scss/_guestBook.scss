@@ -8,13 +8,14 @@
   button {
     background-color: rgb(65, 65, 65);
     border-radius: 5px;
-    color: #fff;
-    border: #000;
+    color: $font-color;
+    border: $font-black;
     font-size: 20px;
   }
 
   button:hover {
     background-color: rgb(114, 114, 114);
+    transform: scale(1.02);
   }
 }
 
@@ -28,7 +29,7 @@
 
   h2 {
     font-family: Railway, sans-serif;
-    color: #fff;
+    color: $font-color;
   }
 
   input {
@@ -65,12 +66,12 @@
 
   h3 {
     // padding-top: 10px;
-    color: #fff;
+    color: $font-color;
     margin: 6px;
   }
 
   p {
-    color: #fff;
+    color: $font-color;
     margin: 0;
     padding: 5px;
   }
